@@ -2,14 +2,15 @@ Name: Yousif Kako
 
 Queue:
 	Acquires Two(2) Structs:
-		struct Node:
-			float time
-			struct Node* next
+	
+	struct Node:
+		float time
+		struct Node* next
 		
-		struct Queue:
-			struct Node* front
-			struct Node* last
-			unsigned int size
+	struct Queue:
+		struct Node* front
+		struct Node* last
+		unsigned int size
 	
 	float initQueue(Queue* queue):
 		Is a function that initializes the passed in queue.
