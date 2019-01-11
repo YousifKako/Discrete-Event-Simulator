@@ -1,8 +1,8 @@
 Name: Yousif Kako
 
 Queue:
-	Acquires Two(2) Structs:
 	
+	Acquires Two(2) Structs:
 	struct Node:
 		float time
 		struct Node* next
@@ -31,16 +31,17 @@ Queue:
 
 
 Heap:
+	
 	Acquires Two(2) Structs:
-		struct HeapNode:
-			unsigned int id
-			float time
-			struct HeapNode* next
+	struct HeapNode:
+		unsigned int id
+		float time
+		struct HeapNode* next
 		
-		struct Heap:
-			struct HeapNode* FrontNode
-			struct HeapNode* LastNode
-			unsigned int size
+	struct Heap:
+		struct HeapNode* FrontNode
+		struct HeapNode* LastNode
+		unsigned int size
 
 	void initHeap(Heap* heap):
 		Is a function that initializes the passed in heap.
@@ -57,6 +58,7 @@ Heap:
 
 
 Configuration File Reader:
+	
 	#define LINE_LENGTH 20:
 		This is the length of the line that I would be reading from and writing to.
 
@@ -71,5 +73,6 @@ Configuration File Reader:
 
 
 Main:
+	
 	The Main.c File contains all of the comments needed. I did this because I wanted to explain each part
 	by it self.
